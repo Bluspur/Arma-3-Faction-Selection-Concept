@@ -1,0 +1,18 @@
+#include "configs\factions\factions.hpp"
+#include "configs\dialogs\defines.hpp"
+#include "configs\dialogs\dialogs.hpp"
+
+class Params 
+{
+	class ResistanceDensity
+	{
+		title = "Resistance Density";
+		values[] = {0,1,2};
+		texts[] = {"Sparse","Normal","Dense"};
+		default = 1;
+	};
+};
+
+class cfgFunctions {
+	#include "functions\functions.hpp"
+};
